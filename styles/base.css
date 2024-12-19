@@ -1,0 +1,11 @@
+@tailwind base;
+
+@layer base {
+  :root {
+    @apply scrollbar-track-transparent scrollbar-thumb-zinc-800 scrollbar-thumb-rounded-lg scrollbar-w-1.5 scroll-smooth;
+  }
+
+  body {
+    @apply container !mx-auto flex min-h-screen flex-col px-4 font-sans antialiased;
+  }
+}
